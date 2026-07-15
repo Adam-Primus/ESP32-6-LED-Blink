@@ -25,6 +25,6 @@ You can view the full parts list, & estimated prices in the [BOM spreadsheet](./
 ## Live Simulation
 You also can test and run this project virtually in your browser using Wokwi!
 
-👉 **[Launch Wokwi ESP32 LED Simulation](https://wokwi.com/projects/469460512073851905)**
+**[Launch Wokwi ESP32 LED Simulation](https://wokwi.com/projects/469460512073851905)**
 
 *Simply click the green "Play" button in the simulator to see the LEDs blink/respond.*
