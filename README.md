@@ -6,6 +6,7 @@ A simple project using an ESP32 microcontroller to control 6 physical LED.
 * ESP32 Development Board
 * 6x LED (i.ei white)
 * Breadboard and Jumper Wires
+* resistors as per led.(variable)(if your supply voltage is more than the led's volt rating)
 
 ## 🔌 Circuit Connection
 * **LEDs Anode (Long pin)** -> ESP32 Pin GPIO **[13,12,14,27,26,25]**
