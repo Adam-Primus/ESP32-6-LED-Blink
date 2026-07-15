@@ -8,6 +8,9 @@ A simple project using an ESP32 microcontroller to control 6 physical LED.
 * Breadboard and Jumper Wires
 * resistors as per led.(variable)(if your supply voltage is more than the led's volt rating)
 
+## 📋 Bill of Materials (BOM)
+You can view the full parts list, & estimated prices in the [BOM spreadsheet](./bom.csv).
+
 ## 🔌 Circuit Connection
 * **LEDs Anode (Long pin)** -> ESP32 Pin GPIO **[13,12,14,27,26,25]**
 * **LED Cathode (Short pin)** -> ESP32 **Common GND**
