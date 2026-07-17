@@ -1,6 +1,9 @@
 # ESP32 Controlled LED
 
-A simple project using an ESP32 microcontroller to control 6 physical LED.
+This is a simple, extremely beginner friendly project that uses an ESP32 DevKit v1 microcontroller to create a pattern on 6 white LEDs using a program.
+
+# Why Make This Project?
+The Truth is, I am currently starting my journey of microcontrollers & programming and had minimal knowledge about Those stuff. Earlier, I used to make simple circuit projects. So, to upgrade my journey I am now acquiring my knowledge in this field.
 
 ## Components Used
 * ESP32 Development Board
@@ -8,23 +11,17 @@ A simple project using an ESP32 microcontroller to control 6 physical LED.
 * Breadboard and Jumper Wires
 * resistors as per led.(variable)(if your supply voltage is more than the led's volt rating)
 
-## Bill of Materials (BOM)
-You can view the full parts list, & estimated prices in the [BOM spreadsheet](./bom.csv).
-
 ## Circuit Connection
 * **LEDs Anode (Long pin)** -> ESP32 Pin GPIO **[13,12,14,27,26,25]**
 * **LED Cathode (Short pin)** -> ESP32 **Common GND**
 
-## How to Run the Code
-1. Open the `.ino` file in the Arduino IDE.
-2. Install the ESP32 board manager if you haven't already.
-3. Select your ESP32 board under **Tools > Board**.
-4. Connect your ESP32 to your computer and choose the correct port under **Tools > Port**.
-5. Click **Upload**.
-
 ## Live Simulation
-You also can test and run this project virtually in your browser using Wokwi!
+I first tested and run this project virtually in my browser using Wokwi, Before doing it physically.
 
 **[Launch Wokwi ESP32 LED Simulation](https://wokwi.com/projects/469460512073851905)**
 
-*Simply click the green "Play" button in the simulator to see the LEDs blink/respond.*
+<img width="1366" height="632" alt="Screenshot of Simulation" src="https://github.com/user-attachments/assets/00da28f2-647f-42f2-a8b5-f15cd424767c" />
+
+## Bill of Materials (BOM)
+This is the full parts list, & prices in the [BOM spreadsheet](./bom.csv).
+
